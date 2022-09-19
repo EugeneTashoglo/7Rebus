@@ -64,7 +64,7 @@ namespace _7Rebus
                 }
             }
 
-            MessageBox.Show((correctAnswersLenth * 100 / answer.Length).ToString());
+            MessageBox.Show("Вы прошли ребус на: " + correctAnswersLenth * 100 / answer.Length + " %");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
